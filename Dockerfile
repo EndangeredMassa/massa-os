@@ -20,6 +20,3 @@ RUN npkg install hipster@0.15.3
 
 CMD ["nsh"]
 
-INTERACTIVE yes
-TTY yes
-
