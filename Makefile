@@ -2,7 +2,7 @@
 build:
 	docker build -t myos .
 
-run:
+run: build
 	docker run -t -i myos
 
 

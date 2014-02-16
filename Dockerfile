@@ -13,6 +13,8 @@ RUN npkg install bin-fs
 RUN npkg install bin-pwd
 RUN npkg install bin-ifconfig
 
+RUN npkg install hipster@0.15.3
+
 
 
 
