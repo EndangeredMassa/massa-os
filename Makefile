@@ -8,3 +8,6 @@ run: build
 link: build
 	docker run -t -i -v /home/sean/source/nodeos:/host:ro myos
 
+clean:
+	./scripts/clean
+

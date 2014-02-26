@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+docker stop $(docker ps -q -a)
+docker rm $(docker ps -q -a)
+docker rmi myos
+docker rmi $(docker images -q -a)
+
+echo '======================='
+docker info
+
