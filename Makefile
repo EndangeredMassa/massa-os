@@ -1,12 +1,12 @@
 
 build:
-	docker build -t myos .
+	docker build --tag myos .
 
 run: build
-	docker run -t -i myos
+	docker run --tty --interactive myos
 
 link: build
-	docker run -t -i -v /home/sean/source/nodeos:/host:ro myos
+	docker run --tty --interactive --volume /home/sean/source/nodeos:/host:ro myos
 
 clean:
 	./scripts/clean
