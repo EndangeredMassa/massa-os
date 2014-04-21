@@ -16,5 +16,5 @@ RUN npkg install bin-ifconfig
 RUN npkg install hipster@0.15.3
 RUN npkg install boxes
 
-CMD ["nsh"]
+CMD ["boxes"]
 
