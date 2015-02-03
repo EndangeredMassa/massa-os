@@ -1,4 +1,7 @@
-# MassaOS
+# [DEPRECATED] MassaOS
+
+[DEPRECATED] I no longer maintain this.
+It exists here for reference only.
 
 This is playground for custom NodeOS builds.
 
